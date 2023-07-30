@@ -146,6 +146,13 @@ input, select, textarea {
 
 		}
 
+
+		.special{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
 	body {
 		background-color: #ffffff;
 		color: #000000;

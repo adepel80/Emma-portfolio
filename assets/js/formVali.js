@@ -8,20 +8,20 @@ function validateForm(event) {
   
       // Validate name (not empty)
       if (name.trim() === '') {
-        alert('Please enter your name.');
+        // alert('Please enter your name.');
         return;
       }
   
       // Validate email (format)
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(email)) {
-        alert('Please enter a valid email address.');
+        // alert('Please enter a valid email address.');
         return;
       }
 
       // Validate message
       if (message.trm() === '') {
-        alert('Please add your message')
+        // alert('Please add your message')
         return;
       }
   
